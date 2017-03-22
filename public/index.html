@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-i18n/angular-locale_pt-br.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Estante de livros</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#/">Estante de livros</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#/">Meus livros</a></li>
+            </ul>
+            <a href="adicionarlivro.html" class="btn btn-primary menu-btn navbar-btn">Adicionar um livro</a>
+        </div>
+    </nav>
+    <div class="container-fluid conteudo">
+        <div class="row">
+          <div ng-repeat="livro in livros">
+            <div class="col-md-3">
+                <div class="opcao">
+                    <p class="titulo-do-livro text-center">A apologia de Sócrates</p>
+                    <img class="imagem-do-livro" src="img/cover_default.jpg" />
+                    <p class="preco-do-livro">
+                        R$ 9,90
+                    </p>
+                    <button class="btn btn-danger remover-livro">Remover</button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "GDC-livraria",
+  "description": "example",
+  "main": "index.html",
+  "keywords": [
+    "example"
+  ],
+  "authors": [
+    "Bryann Barbosa"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}

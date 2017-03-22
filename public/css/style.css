@@ -1,0 +1,39 @@
+
+
+.menu-btn {
+  margin-left: 20px;
+}
+
+.remover-livro {
+  margin-bottom: 10px;
+}
+
+.opcao {
+  text-align: center;
+  background-color: #f8f8f8;
+  width: 100%;
+  min-height: 200px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.titulo-do-livro {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.preco-do-livro {
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.conteudo {
+  margin-top: 80px;
+}
+
+.imagem-do-livro {
+  width: 120px;
+  height: auto;
+  border: 2px solid #ccc;
+}

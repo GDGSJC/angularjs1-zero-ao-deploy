@@ -1,0 +1,29 @@
+{
+  "name": "angularjs1-zero-ao-deploy",
+  "version": "1.0.0-alpha",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular-route": "^1.6.3",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDGSJC/angularjs1-zero-ao-deploy.git"
+  },
+  "keywords": [
+    "gdg",
+    "gdgsjc",
+    "agularjs"
+  ],
+  "author": "Bryann Barbosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GDGSJC/angularjs1-zero-ao-deploy/issues"
+  },
+  "homepage": "https://github.com/GDGSJC/angularjs1-zero-ao-deploy#readme"
+}
